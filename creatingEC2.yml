@@ -1,0 +1,14 @@
+- hosts: hosts
+  tasks:
+          - name: Deleting the EC2 instace's
+            ec2:
+
+
+                    aws_access_key: "AKIAJP3ASOHNQXTCIKYQ"
+                    aws_secret_key: "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"
+                    region: us-east-2
+                   
+                    image: ami-0f65671a86f061fcd
+                    instance_type: t2.micro
+                    count: 2
+          
