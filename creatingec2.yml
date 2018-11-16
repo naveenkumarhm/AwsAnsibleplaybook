@@ -1,0 +1,22 @@
+- hosts: hosts
+  tasks:
+          - name: Deleting the EC2 instace's 
+            ec2:
+
+
+                    aws_access_key: 'AKIAITJBC3KYLXUX3DBA'
+                    aws_secret_key: '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'
+                    region: us-east-2
+                    instance_ids:
+                            - i-02b4f92ed4bd2f7a1
+                            - i-02ebc7e3975bf3025
+                            - i-06ef42c40179857f1
+                            - i-07b0aeb1ae469f114
+                            - i-08aa15c54d8ae1987
+                            - i-08abcffd8483cc9d8
+                            - i-08ea5b24385bcd772
+                            - i-0a8034b99909fa497
+                            - i-0ac047b5d2dd5c4b2
+                            - i-0b0c653b3d8d00d3d
+                            - i-0bd41ba7b26229c1a
+                    state: absent
