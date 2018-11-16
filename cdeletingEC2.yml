@@ -4,8 +4,8 @@
             ec2:
 
 
-                    aws_access_key: 'AKIAITJBC3KYLXUX3DBA'
-                    aws_secret_key: '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'
+                    aws_access_key: '---------------------'
+                    aws_secret_key: '--------------------'
                     region: us-east-2
                     instance_ids:
                             - i-02b4f92ed4bd2f7a1
